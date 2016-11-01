@@ -1,0 +1,10 @@
+apply plugin: 'eclipse'
+apply plugin: 'idea'
+apply from: "${rootDir}/gradle/scripts/android.gradle"
+
+
+dependencies {
+    compile project(':lib')
+    compile project(':lib_maven')
+    compile project(':lib_jcenter')
+}
