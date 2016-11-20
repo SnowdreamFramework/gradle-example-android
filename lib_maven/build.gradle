@@ -1,6 +1,6 @@
 apply plugin: 'eclipse'
 apply plugin: 'idea'
-apply from: "${rootDir}/gradle/scripts/android-library.gradle"
-apply from: "${rootDir}/gradle/scripts/maven-push.gradle"
+apply from: "${rootDir}/gradle/plugins/android-library.gradle"
+apply from: "${rootDir}/gradle/plugins/maven-push.gradle"
 
 
